@@ -5,8 +5,14 @@ import static org.hamcrest.Matchers.*;
 
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
+
 public class FirstAPI {
 
+	
+	@Description("This s the first API test")
+	@Story("API Test to validate the status code and body response")
 	@Test
 	public void TestAPI() {
 
